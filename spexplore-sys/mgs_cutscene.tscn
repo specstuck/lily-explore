@@ -1,0 +1,100 @@
+[gd_scene load_steps=7 format=3 uid="uid://cee7ll45sm0l6"]
+
+[ext_resource type="Script" uid="uid://c3x4v5lb4dom8" path="res://mgs_cutscene.gd" id="1_vj4jh"]
+[ext_resource type="PackedScene" uid="uid://46g68rmxux36" path="res://scenes/dialogue_handler/animated_dialogue_handler.tscn" id="2_q6afu"]
+[ext_resource type="PackedScene" uid="uid://b3f7hmkuun8u" path="res://assets/texture/MGS screen/MGS UI.tscn" id="3_k0c8a"]
+[ext_resource type="PackedScene" uid="uid://desd7a1vmsn4o" path="res://scenes/dialogue_handler/animated_lang_handler.tscn" id="3_vj4jh"]
+[ext_resource type="SpriteFrames" uid="uid://1qp23kfwpwqs" path="res://assets/texture/animations/mike_trickster.tres" id="4_d1ppe"]
+
+[sub_resource type="GDScript" id="GDScript_k0c8a"]
+script/source = "extends RichTextLabel
+"
+
+[node name="MGSCutscene" type="Node2D"]
+script = ExtResource("1_vj4jh")
+
+[node name="DialogueHandler" parent="." instance=ExtResource("2_q6afu")]
+z_index = 2
+dialogue_path = "res://assets/lang/mgs_dialogue.json"
+
+[node name="LLangHandler" parent="DialogueHandler" instance=ExtResource("3_vj4jh")]
+start_anim = "lang/fade_in"
+end_anim = "lang/fade_out"
+id = "left"
+persist = true
+
+[node name="TitleBox" parent="DialogueHandler/LLangHandler" index="0"]
+visible = false
+script = SubResource("GDScript_k0c8a")
+
+[node name="TalkSprite" parent="DialogueHandler/LLangHandler" index="1"]
+position = Vector2(116, 135)
+scale = Vector2(0.75, 0.75)
+
+[node name="DialogueBoxTexture" parent="DialogueHandler/LLangHandler/TextContainer" index="0"]
+texture = null
+
+[node name="DialogueBoxMask" parent="DialogueHandler/LLangHandler/TextContainer" index="1"]
+texture = null
+
+[node name="RLangHandler" parent="DialogueHandler" instance=ExtResource("3_vj4jh")]
+start_anim = "lang/fade_in"
+end_anim = "lang/fade_out"
+id = "right"
+persist = true
+
+[node name="TitleBox" parent="DialogueHandler/RLangHandler" index="0"]
+visible = false
+script = SubResource("GDScript_k0c8a")
+
+[node name="TalkSprite" parent="DialogueHandler/RLangHandler" index="1"]
+position = Vector2(531, 135)
+scale = Vector2(0.75, 0.75)
+sprite_frames = ExtResource("4_d1ppe")
+
+[node name="DialogueBoxTexture" parent="DialogueHandler/RLangHandler/TextContainer" index="0"]
+texture = null
+
+[node name="DialogueBoxMask" parent="DialogueHandler/RLangHandler/TextContainer" index="1"]
+texture = null
+
+[node name="MGS_UI" parent="." instance=ExtResource("3_k0c8a")]
+
+[node name="stock bg" parent="MGS_UI" index="1"]
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_right = 650.0
+offset_bottom = 450.0
+
+[node name="bg overlay" parent="MGS_UI" index="2"]
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_right = 650.0
+offset_bottom = 450.0
+
+[node name="ref" parent="MGS_UI" index="3"]
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_right = 650.0
+offset_bottom = 450.0
+
+[node name="TextureRect" parent="MGS_UI/eden panel" index="0"]
+visible = false
+
+[node name="Panel" parent="MGS_UI/eden panel" index="1"]
+z_index = 2
+
+[node name="TextureRect" parent="MGS_UI/mike panel" index="0"]
+visible = false
+
+[node name="Panel" parent="MGS_UI/mike panel" index="1"]
+z_index = 2
+
+[node name="Sides panel" parent="MGS_UI" index="12"]
+z_index = 3
+
+[connection signal="animation_finished" from="MGS_UI/AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
+
+[editable path="DialogueHandler/LLangHandler"]
+[editable path="DialogueHandler/RLangHandler"]
+[editable path="MGS_UI"]

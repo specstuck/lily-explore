@@ -1,0 +1,202 @@
+[gd_scene load_steps=2 format=3 uid="uid://oeotpgmww0bu"]
+
+[ext_resource type="Script" uid="uid://cie270h5edq54" path="res://scenes/dialogue_handler/json_builder.gd" id="1_3qnlx"]
+
+[node name="JSONBuilder" type="Node2D"]
+script = ExtResource("1_3qnlx")
+
+[node name="Prefix" type="LineEdit" parent="."]
+offset_right = 68.5625
+offset_bottom = 31.0
+focus_next = NodePath("../Index")
+focus_previous = NodePath("../UndoText")
+placeholder_text = "Prefix"
+
+[node name="Index" type="LineEdit" parent="."]
+offset_left = 69.0
+offset_right = 296.0
+offset_bottom = 31.0
+focus_next = NodePath("../ID")
+focus_previous = NodePath("../Prefix")
+placeholder_text = "Index"
+
+[node name="ID" type="LineEdit" parent="."]
+offset_top = 31.0
+offset_right = 296.0
+offset_bottom = 62.0
+focus_next = NodePath("../Mood")
+focus_previous = NodePath("../Index")
+placeholder_text = "ID"
+
+[node name="Mood" type="LineEdit" parent="."]
+offset_top = 62.0
+offset_right = 296.0
+offset_bottom = 93.0
+focus_next = NodePath("../Speaker")
+focus_previous = NodePath("../ID")
+placeholder_text = "Mood"
+
+[node name="Speaker" type="LineEdit" parent="."]
+offset_top = 93.0
+offset_right = 296.0
+offset_bottom = 124.0
+focus_next = NodePath("../Format")
+focus_previous = NodePath("../Mood")
+placeholder_text = "Speaker"
+
+[node name="Format" type="LineEdit" parent="."]
+offset_top = 124.0
+offset_right = 296.0
+offset_bottom = 155.0
+focus_next = NodePath("../Title")
+focus_previous = NodePath("../Speaker")
+placeholder_text = "Text Format"
+
+[node name="Title" type="LineEdit" parent="."]
+offset_top = 155.0
+offset_right = 296.0
+offset_bottom = 186.0
+focus_next = NodePath("../TitleFormat")
+focus_previous = NodePath("../Format")
+placeholder_text = "Title"
+
+[node name="TitleFormat" type="LineEdit" parent="."]
+offset_top = 186.0
+offset_right = 296.0
+offset_bottom = 217.0
+focus_next = NodePath("../UpdateDialog")
+focus_previous = NodePath("../Title")
+placeholder_text = "Title Format"
+
+[node name="UpdateDialog" type="Button" parent="."]
+offset_top = 217.0
+offset_right = 135.0
+offset_bottom = 248.0
+focus_next = NodePath("../TextValue")
+focus_previous = NodePath("../TitleFormat")
+text = "UPDATE DIALOG
+"
+
+[node name="SubmitDialog" type="Button" parent="."]
+visible = false
+offset_left = 135.0
+offset_top = 217.0
+offset_right = 270.0
+offset_bottom = 248.0
+focus_next = NodePath("../TextValue")
+focus_previous = NodePath("../UpdateDialog")
+text = "SUBMIT DIALOG
+"
+
+[node name="TextSpeed" type="SpinBox" parent="."]
+offset_top = 259.0
+offset_right = 135.0
+offset_bottom = 290.0
+focus_next = NodePath("../TextDelay")
+focus_previous = NodePath("../SubmitDialog")
+min_value = -1.0
+value = -1.0
+prefix = "Speed:"
+
+[node name="TextDelay" type="SpinBox" parent="."]
+offset_left = 135.0
+offset_top = 259.0
+offset_right = 270.0
+offset_bottom = 290.0
+focus_next = NodePath("../TextValue")
+focus_previous = NodePath("../TextSpeed")
+min_value = -1.0
+value = -1.0
+prefix = "Delay:"
+
+[node name="TextValue" type="LineEdit" parent="."]
+offset_top = 290.0
+offset_right = 296.0
+offset_bottom = 321.0
+focus_next = NodePath("../TextSpeaker")
+focus_previous = NodePath("../TitleFormat")
+placeholder_text = "LineValue"
+
+[node name="TextSpeaker" type="LineEdit" parent="."]
+offset_top = 321.0
+offset_right = 296.0
+offset_bottom = 352.0
+focus_next = NodePath("../TextMood")
+focus_previous = NodePath("../TextValue")
+placeholder_text = "LineSpeaker"
+
+[node name="TextMood" type="LineEdit" parent="."]
+offset_top = 352.0
+offset_right = 296.0
+offset_bottom = 383.0
+focus_next = NodePath("../TextFormat")
+focus_previous = NodePath("../TextSpeaker")
+placeholder_text = "LineMood"
+
+[node name="TextFormat" type="LineEdit" parent="."]
+offset_top = 383.0
+offset_right = 296.0
+offset_bottom = 414.0
+focus_next = NodePath("../SubmitText")
+focus_previous = NodePath("../TextMood")
+placeholder_text = "LineFormat"
+
+[node name="SubmitText" type="Button" parent="."]
+offset_top = 414.0
+offset_right = 110.0
+offset_bottom = 445.0
+focus_next = NodePath("../UndoText")
+focus_previous = NodePath("../TextFormat")
+text = "SUBMIT TEXT"
+
+[node name="Export" type="Button" parent="."]
+offset_left = 187.0
+offset_top = 461.0
+offset_right = 297.0
+offset_bottom = 492.0
+focus_next = NodePath("../Index")
+focus_previous = NodePath("../SubmitText")
+text = "Export"
+
+[node name="UndoText" type="Button" parent="."]
+offset_top = 461.0
+offset_right = 110.0
+offset_bottom = 492.0
+focus_next = NodePath("../Index")
+focus_previous = NodePath("../SubmitText")
+text = "Undo"
+
+[node name="FullPreview" type="TextEdit" parent="."]
+offset_left = 739.0
+offset_right = 1163.0
+offset_bottom = 648.0
+
+[node name="SavePreview" type="Button" parent="."]
+offset_left = 1044.0
+offset_top = 617.0
+offset_right = 1163.0
+offset_bottom = 648.0
+text = "SAVE PREVIEW"
+
+[node name="Preview" type="RichTextLabel" parent="."]
+offset_left = 315.0
+offset_right = 739.0
+offset_bottom = 648.0
+
+[node name="Label" type="Label" parent="."]
+offset_top = 492.0
+offset_right = 358.0
+offset_bottom = 648.0
+text = "OK SO BASICALLY
+REQUIRED: INDEX, ID, MOOD
+ALL ELSE OPTIONAL
+INDEX INCREMENTS ITSELF IF NUMBER
+TITLE FORMAT = LINE FORMAT > TEXT FORMAT
+LINE SPEAKER/MOOD > MOOD/SPEAKER"
+
+[connection signal="pressed" from="UpdateDialog" to="." method="_on_update_dialog"]
+[connection signal="pressed" from="SubmitDialog" to="." method="_on_submit_dialog_pressed"]
+[connection signal="pressed" from="SubmitText" to="." method="_on_submit_text_pressed"]
+[connection signal="pressed" from="Export" to="." method="_on_export_pressed"]
+[connection signal="pressed" from="UndoText" to="." method="_on_undo_text_pressed"]
+[connection signal="pressed" from="SavePreview" to="." method="_on_save_preview_pressed"]

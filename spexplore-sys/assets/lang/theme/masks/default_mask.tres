@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://bjvu5hsr8mbvy"]
+
+[ext_resource type="Shader" uid="uid://dnrk8naqpp7og" path="res://assets/lang/theme/masks/default_shader.tres" id="1_csiui"]
+
+[resource]
+shader = ExtResource("1_csiui")

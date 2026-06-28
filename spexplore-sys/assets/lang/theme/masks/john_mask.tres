@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://c7jqya4fhlqlg"]
+
+[ext_resource type="Shader" uid="uid://bgeab8vupkcsr" path="res://assets/lang/theme/masks/john_shader.tres" id="1_3hif5"]
+
+[resource]
+shader = ExtResource("1_3hif5")

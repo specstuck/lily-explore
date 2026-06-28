@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bclt0m6us0eys"]
+
+[ext_resource type="Script" uid="uid://cy2hxkxqwj57o" path="res://animated_dialogue_test.gd" id="1_qmm5a"]
+[ext_resource type="PackedScene" uid="uid://46g68rmxux36" path="res://scenes/dialogue_handler/animated_dialogue_handler.tscn" id="1_rnblj"]
+[ext_resource type="PackedScene" uid="uid://desd7a1vmsn4o" path="res://scenes/dialogue_handler/animated_lang_handler.tscn" id="2_qmm5a"]
+
+[node name="AnimatedDialogueTest" type="Node2D"]
+script = ExtResource("1_qmm5a")
+
+[node name="AnimatedDialogueHandler" parent="." instance=ExtResource("1_rnblj")]
+dialogue_path = "res://assets/lang/mgs_dialogue.json"
+
+[node name="AnimatedLangHandler" parent="AnimatedDialogueHandler" instance=ExtResource("2_qmm5a")]
+id = "left"
+
+[node name="AnimatedLangHandler2" parent="AnimatedDialogueHandler" instance=ExtResource("2_qmm5a")]
+id = "right"

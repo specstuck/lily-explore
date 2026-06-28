@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bs8fstwy4051j"
+path="res://.godot/imported/Wifi Jungle Master.mp3-ddf7dd252a716bdad10436cafa936428.mp3str"
+
+[deps]
+
+source_file="res://music/Wifi Jungle Master.mp3"
+dest_files=["res://.godot/imported/Wifi Jungle Master.mp3-ddf7dd252a716bdad10436cafa936428.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

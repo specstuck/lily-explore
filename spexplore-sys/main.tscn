@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://kxr5n2kv6l0x"]
+
+[ext_resource type="PackedScene" uid="uid://c7lluoaht772n" path="res://scenes/dialogue_handler/dialogue_handler.tscn" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://bdind8lq0xhp8" path="res://button.gd" id="1_h2yge"]
+[ext_resource type="Script" uid="uid://hsmchq218kbd" path="res://main.gd" id="1_lquwl"]
+[ext_resource type="PackedScene" uid="uid://ccvfk0tcnuifs" path="res://scenes/dialogue_handler/lang_handler.tscn" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://1mbg4s64osoq" path="res://scenes/dialogue_handler/animated_plog_lang_handler.tscn" id="5_lquwl"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_lquwl")
+
+[node name="Button" type="Button" parent="."]
+offset_right = 251.0
+offset_bottom = 31.0
+text = "BIG BUTTON TO ADVANCE TEXT"
+script = ExtResource("1_h2yge")
+
+[node name="DialogueHandler" parent="Button" instance=ExtResource("1_0xm2m")]
+dialogue_path = "res://assets/lang/TESTmike_dialogue.json"
+
+[node name="LangHandler" parent="Button/DialogueHandler" instance=ExtResource("2_h2yge")]
+offset_left = 13.0
+offset_top = -317.0
+offset_right = 13.0
+offset_bottom = -317.0
+id = "left"
+
+[node name="AnimatedPlogLangHandler" parent="Button/DialogueHandler" instance=ExtResource("5_lquwl")]
+animation = "slide"
+id = "middle"
+
+[node name="LangHandler2" parent="Button/DialogueHandler" instance=ExtResource("2_h2yge")]
+offset_left = 13.0
+offset_top = 38.0
+offset_right = 13.0
+offset_bottom = 38.0
+id = "narrator"
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

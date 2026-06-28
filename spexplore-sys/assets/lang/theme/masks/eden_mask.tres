@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cgxadddofa8on"]
+
+[ext_resource type="Shader" uid="uid://be1f0y57kmg8f" path="res://assets/lang/theme/masks/eden_shader.tres" id="1_2qp8l"]
+
+[resource]
+shader = ExtResource("1_2qp8l")

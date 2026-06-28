@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=3 format=3 uid="uid://bpcflic18cy48"]
+
+[ext_resource type="Texture2D" uid="uid://clgh4pncrssso" path="res://assets/texture/animations/frames/eden/outline_Eyes_Close_Mouth.png" id="1_6jhbb"]
+[ext_resource type="Texture2D" uid="uid://gck48mmoisri" path="res://assets/texture/animations/frames/eden/outline_Eyes_Open_Mouth.png" id="2_1xn7w"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_6jhbb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_6jhbb")
+}],
+"loop": true,
+"name": &"mgs_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_6jhbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_1xn7w")
+}],
+"loop": true,
+"name": &"mgs_speaking",
+"speed": 5.0
+}]

@@ -1,0 +1,79 @@
+[gd_scene load_steps=6 format=3 uid="uid://ccvfk0tcnuifs"]
+
+[ext_resource type="Script" uid="uid://dgodi0rxi71yg" path="res://scenes/dialogue_handler/lang_handler.gd" id="1_pdmg1"]
+[ext_resource type="PackedScene" uid="uid://dsfq7ne5x458g" path="res://scenes/stopwatch.tscn" id="3_iygql"]
+[ext_resource type="Texture2D" uid="uid://djtdh363evjaj" path="res://assets/texture/textbox_grey.png" id="5_cxbue"]
+[ext_resource type="SpriteFrames" uid="uid://byneqce6uyhrh" path="res://assets/texture/animations/mike.tres" id="5_mqcf7"]
+[ext_resource type="Texture2D" uid="uid://dbl76idccixy8" path="res://assets/texture/textbox_mask.png" id="6_cxbue"]
+
+[node name="LangHandler" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_pdmg1")
+Textbox = true
+Autoadvance = false
+"Default Speed" = 20.0
+Sprite = true
+Persist = false
+"Idle Mood" = ""
+
+[node name="TalkSprite" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(585, 390)
+scale = Vector2(0.5, 0.5)
+sprite_frames = ExtResource("5_mqcf7")
+
+[node name="TextContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 450.0
+offset_right = 650.0
+offset_bottom = 550.0
+
+[node name="DialogueBoxTexture" type="NinePatchRect" parent="TextContainer"]
+visible = false
+layout_mode = 2
+texture = ExtResource("5_cxbue")
+patch_margin_left = 9
+patch_margin_top = 37
+patch_margin_right = 43
+patch_margin_bottom = 15
+
+[node name="DialogueBoxMask" type="NinePatchRect" parent="TextContainer"]
+visible = false
+modulate = Color(0.654902, 0.5568628, 0, 1)
+layout_mode = 2
+texture = ExtResource("6_cxbue")
+patch_margin_left = 9
+patch_margin_top = 37
+patch_margin_right = 43
+patch_margin_bottom = 15
+
+[node name="TextMargin" type="MarginContainer" parent="TextContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 9
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 43
+theme_override_constants/margin_bottom = 15
+
+[node name="DialogueBox" type="RichTextLabel" parent="TextContainer/TextMargin"]
+z_index = 1
+layout_mode = 2
+bbcode_enabled = true
+scroll_active = false
+scroll_following = true
+scroll_following_visible_characters = true
+
+[node name="TitleBox" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_top = 350.0
+offset_right = 650.0
+offset_bottom = 450.0
+scroll_active = false
+vertical_alignment = 2
+
+[node name="DelayTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Stopwatch" parent="." instance=ExtResource("3_iygql")]
+
+[connection signal="timeout" from="DelayTimer" to="." method="_on_delay_timer_timeout"]

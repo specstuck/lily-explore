@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://y5t7hq4i77wh"]
+
+[ext_resource type="Shader" uid="uid://buxwaabdisnnl" path="res://assets/lang/theme/masks/dave_shader.tres" id="1_l1sd1"]
+
+[resource]
+shader = ExtResource("1_l1sd1")

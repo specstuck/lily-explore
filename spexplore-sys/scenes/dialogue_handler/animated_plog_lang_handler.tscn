@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://1mbg4s64osoq"]
+
+[ext_resource type="PackedScene" uid="uid://desd7a1vmsn4o" path="res://scenes/dialogue_handler/animated_lang_handler.tscn" id="1_qyp3q"]
+[ext_resource type="Script" uid="uid://bp601msdng4vu" path="res://scenes/dialogue_handler/animated_plog_lang_handler.gd" id="2_o3thw"]
+
+[node name="AnimatedPlogLangHandler" instance=ExtResource("1_qyp3q")]
+script = ExtResource("2_o3thw")

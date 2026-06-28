@@ -1,0 +1,1739 @@
+{
+	"a/1": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.991", "time": "1.247", "mood": "M3A", "format": "lily", "value": "TC: ok i think that's us up"
+			},
+			{
+				"delay": "0.586", "time": ".570", "mood": "M3A", "value": "TC: hey everyone"
+			},
+			{
+				"delay": "0.718", "time": "3.096", "mood": "M3A", "value": "TC: so ive been gettin a ton of messages with questions on the forums"
+			},
+			{
+				"delay": "0.950", "time": "1.296", "mood": "M12", "value": "TC: i guess because of my comic?"
+			},
+			{
+				"delay": "0.883", "time": "2.13", "mood": "M5A", "format": "mike", "value": "TC: and also some of the stuff i said on my site haha"
+			},
+			{
+				"delay": "0.996", "time": "2.089", "mood": "M3A", "value": "TC: so im gonna run through some of these questions"
+			},
+			{
+				"delay": "0.702", "time": "3.344", "mood": "M5A", "value": "TC: uh big thanks to my friends Lily and CC for helping collect questions"
+			},
+			{
+				"delay": "0.702", "time": "1.627", "mood": "M4B", "value": "TC: man i was not expecting this many…"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/2": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "0.355", "time": "3.699", "mood": "L1", "value": "AA: Yes, the amount of interest in your life is frankly baffling."
+			},
+			{
+				"delay": "0.842", "time": "4.153", "mood": "L2", "value": "AA: So I suggest we get started, before you ramble away our time entirely."
+			}
+		],
+		"title": {
+			"format": "lily-title",
+			"value": "LILY"
+		}
+	},
+	"a/3": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.594", "time": "0.784", "mood": "M20", "value": "TC: haha yeah"
+			},
+			{
+				"delay": "2.320", "time": "0.817", "mood": "M3A", "value": "TC: ok lets see… "
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/4": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.817", "time": "3.517", "value":  "Mike, what's your bro think of the Anarchist movements?"
+			}
+		]
+	},
+	"a/5": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.215", "time": "0.438", "mood": "M10", "value": "TC: he seems to like"
+			},
+			{
+				"delay": "0.363", "time": "1.841", "mood": "M3A", "value": "TC: get very passionate about anarchism"
+			},
+			{
+				"delay": "0.718", "time": "1.131", "mood": "M3C", "value": "TC: in all sorts of directions"
+			},
+			{
+				"delay": "0.413", "time": "1.594", "mood": "M3B", "value": "TC: i cant really pin down his stance there…"
+			},
+			{
+				"delay": "0.561", "time": "1.858", "mood": "M3A", "value": "TC: man i dont really know much politics…"
+			},
+			{
+				"delay": "0.256", "time": "1.214", "mood": "M7C", "value": "TC: anarchisms about like…"
+			},
+			{
+				"delay": "0.652", "time": "1.684", "mood": "M7B", "value": "TC: conquesting bread and stuff right?"
+			},
+			{
+				"delay": "0.132", "time": ".603", "mood": "M3A", "value": "TC: breads cool"
+			},
+			{
+				"delay": "2.254", "time": "1.618", "mood": "M5A", "value": "TC: thats my final answer haha"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/6": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "1.040", "time": "4.071", "value":  "hi mike, would you rather have a million dollars, or a dog that doubles in age every second?"
+			}
+		]
+	},
+	"a/7": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.966", "time": ".388", "mood": "M10-closed", "value": "TC: hmmm"
+			},
+			{
+				"delay": "1.635", "time": "2.865", "mood": "M5C", "value": "TC: damn wow i wasnt really expecting anything like this haha"
+			},
+			{
+				"delay": "0.570", "time": "1.841", "mood": "M3A", "value": "TC: so a million dollars is nice and all but"
+			},
+			{
+				"delay": "0.487", "time": "3.294", "mood": "M10", "value": "TC: i mean Bro always says money incentivises greed, corruption, and hoarding"
+			},
+			{
+				"delay": "0.413", "time": "1.8", "mood": "M11", "value": "TC: so i guess id have to take the dog right?"
+			},
+			{
+				"delay": "2.345", "time": "1.536", "mood": "M3A", "value": "TC: what a weird question lol"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/8": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "1.2", "time": "1.389", "value":  "mike is there an afterlife?"
+			}
+		]
+	},
+	"a/9": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.867", "time": "3.294", "mood": "M8A", "value": "TC: man deep question haha idk dude"
+			},
+			{
+				"delay": "0.9", "time": "3.063", "mood": "M3A", "value": "TC: lily once said something about bubbles but i never really got it"
+			},
+			{
+				"delay": "2.0", "time": "1.494", "mood": "M3A", "value": "TC: how about we say a solid maybe?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/10": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.842", "time": "4.186", "value":  "mike if you were the president what's the first law you would enact"
+			}
+		]
+	},
+	"a/11": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.487", "time": "1.610", "mood": "M5A", "value": "TC: oh that one is easy"
+			},
+			{
+				"delay": "0.537", "time": "1.594", "mood": "M9", "value": "TC: free healthcare for everyone"
+			},
+			{
+				"delay": "0.702", "time": "2.072", "mood": "M8A", "value": "TC: seein what its like at bros hospital is rough"
+			},
+			{
+				"delay": "0.570", "time": "2.172", "mood": "M3C", "value": "TC: it would just make everyone so happy like instantly"
+			},
+			{
+				"delay": "2.682", "time": "2.163", "mood": "M3A", "value": "TC: and maybe Lily wouldnt have such a hard time gettin meds"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/12": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "1.362", "time": "6.376", "value":  "i know everything about you, michael. did you know that?"
+			}
+		]
+	},
+	"a/13": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.677", "time": "1.387", "mood": "M6A", "value": "TC: hey lily is that you?"
+			},
+			{
+				"delay": "0.842", "time": "2.560", "mood": "M8A", "value": "TC: haha for a second that really freaked me out"
+			},
+			{
+				"delay": "0.9", "time": "1", "mood": "M4A", "value": "TC: this is lily right"
+			},
+			{
+				"delay": "3.493", "time": "1.610", "mood": "M4B", "value": "TC: uhh movin on i guess"
+			},
+			{
+				"delay": "0.479", "time": "1.767", "mood": "M4A", "value": "TC: okay cmon whats the next one lily"
+			},
+			{
+				"delay": "0.826", "time": "1.395", "mood": "M8A", "value": "TC: is everything okay haha"
+			},
+			{
+				"delay": "1.024", "time": "1.494", "mood": "M8A", "value": "TC: youre taking a little longer than usual"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/14": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "0.768", "time": "8.125", "mood": "L1", "value": "AA: Hmm. I do apologise. I just didn't expect a question of my own to come in. I need a moment to answer it."
+			}
+		],
+	},
+	"a/15": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.743", "time": "1.272", "mood": "M18", "value": "TC: oh right yeah i get that"
+			},
+			{
+				"delay": "0.570", "time": "1.660", "mood": "M22", "value": "TC: well whats the question?"
+			},
+			{
+				"delay": "1.288", "time": "0.983", "mood": "M18", "value": "TC: for the people at home yknow"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/16": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "0.776", "time": "3.930", "mood": "L5", "value": "AA: Dear Lily: Please could you inform us of a memory you cherish?"
+			}
+		],
+	},
+	"a/17": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "1.437", "time": "2.343", "mood": "M18", "value": "TC: they talk just like you its a perfect match lol"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/18": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "0.917", "time": "8.529", "mood": "L1", "value": "AA: I wish they had the decency to form a proper sentence, but alas. The original question reads \"Lily: What's your best memory.\""
+			},
+			{
+				"delay": "1.040", "time": "12.433", "mood": "L5", "value": "AA: That could mean anything! Could it be a memory I remember the most vividly? Or similarly a memory that changed who I am for the better? I simply could not know, so I changed the question to suit myself."
+			}
+		],
+	},
+	"a/19": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "1.205", "time": "2.617", "mood": "M17", "value": "TC: oh wow thanks for the explanation lily its great to hear your insight"
+			},
+			{
+				"delay": ".9", "time": "1.214", "mood": "M23", "value": "TC: what do you think the answer is then?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/20": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "default"
+		},
+		"text": [
+			{
+				"delay": "1.220", "time": "31.625", "mood": "L1", "value": "AA: This answer I do not \"think\" at all Michael. I know this answer. On a particularly cold evening I decided to allow myself the privilege of egressing this wretched place, unbeknownst to my aunt, and retreated to the relative safety of... the home of my other friend at the time. We watched my favourite show, Madoka Magica, and shared stories and I daresay it made us two girls feel magical. That is my answer."
+			}
+		],
+	},
+	"a/21": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.875", "time": "1.926", "mood": "M20", "value": "TC: that sounds like a great time lily yeah good one"
+			},
+			{
+				"delay": "2.345", "time": "1.569", "mood": "M18", "value": "TC: were getting some great questions comin at us"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/22": {
+		"format": "narrator",
+		"id": "narrator",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": ".939", "time": "3.815", "value":  "Mike, thoughts on the current economic and social situation of kosovo?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/23": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.809", "time": "2.494", "mood": "M4C", "value": "TC: Man i mean the whole conflict has been a mess"
+			},
+			{
+				"delay": "0.058", "time": "1.487", "mood": "M4A", "value": "TC: and while im glad things got settled"
+			},
+			{
+				"delay": "0.753", "time": "1.658", "mood": "M4B", "value": "TC: all that fuss last year wasnt pretty"
+			},
+			{
+				"delay": "0.525", "time": "3.122", "mood": "M6B", "value": "TC: and i feel the entire region has suffered from too much international meddling"
+			},
+			{
+				"delay": "0.899", "time": "2.370", "mood": "M4A", "value": "TC: even if external forces are helping to minimise harm."
+			},
+			{
+				"delay": "1.775", "time": "1.539", "mood": "M7A", "value": "TC: At least that's the gist i get from bro"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/24": {
+		"format": "narrator",
+		"id": "narrator",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "1.039", "time": "3.216", "value":  "are you a dog or a cat person?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/25": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.596", "time": "3.214", "mood": "M5A", "value": "TC: oh dude id have to say if anything im a horse kinda person"
+			},
+			{
+				"delay": "0.689", "time": "2.341", "mood": "M5C", "value": "TC: daisy is basically one of the family"
+			},
+			{
+				"delay": "2.680", "time": "2.242", "mood": "M5A", "value": "TC: Cats are pretty cool tho, remind me of cc"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/26": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.893", "time": "5.786", "value":  "Mike, is it true that you have a ghost cowboy living in your basement, and that he's gonna haunt you until you find his rusty harmonica?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/27": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": ".648", "time": "0.952", "mood": "M7A", "value": "TC: dude what?"
+			},
+			{
+				"delay": "2.277", "time": "2.779", "mood": "M8A", "value": "TC: uhhh no man i dont even have a basement haha"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/28": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "1.152", "time": "11.7", "value":  "allo mike! did you ever visit quéBec, \"la Belle province\"? did you ever taste some poutine? tell cc i said coucou! salut, là! XB)"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/29": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking ",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.847", "time": "2.315", "mood": "M3A", "value": "TC: hey thats cool to see another canadian haha"
+			},
+			{
+				"delay": "0.625", "time": "0.916", "mood": "M5A", "value": "TC: do you know cc too?"
+			},
+			{
+				"delay": ".1", "time": "2.097", "mood": "M3A", "value": "TC: ive never been there myself but ive heard its uh"
+			},
+			{
+				"delay": "1.008", "time": ".1", "mood": "M4A-closed", "value": "TC:"
+			},
+			{
+				"delay": "0.403", "time": "1.777", "mood": "M6B", "value": "TC: yeah im sorry about the whole situation"
+			},
+			{
+				"delay": "2.042", "time": "1.119", "mood": "M6A", "value": "TC: stay safe out there man"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/30": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.754", "time": "5.914", "value":  "Iirc Kamen Rider Decade is midway through its run as of April 2009, are you keeping up with the fansubs?"
+			}
+		]
+	},
+	"a/31": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.353", "time": "1.052", "mood": "M7A", "value": "TC: not too much"
+			},
+			{
+				"delay": "0.619", "time": "2.111", "mood": "M4A", "value": "TC: the site bro hooked me up with isn't updating too much"
+			},
+			{
+				"delay": "0.658", "time": "1.051", "mood": "M4B", "value": "TC: english wise at least"
+			},
+			{
+				"delay": "0.295", "time": "1.276", "mood": "M10", "value": "TC: its always in french first"
+			},
+			{
+				"delay": "0.648", "time": "1.375", "mood": "M11", "value": "TC: i could probably ask CC to teach me"
+			},
+			{
+				"delay": "2.916", "time": "1.326", "mood": "M3A", "value": "TC: if she isnt able then i could also ask-"
+			},
+			{
+				"delay": "0.668", "time": "1.974", "mood": "M7A", "value": "TC: oh hey lily whats going on with the pc?"
+			},
+			{
+				"delay": "0.786", "time": "2.710", "mood": "M6A", "value": "TC: theres some kinda warning on the screen idk is it a problem?"
+			},
+			{
+				"delay": "0.913", "time": "1.856", "mood": "M8A", "value": "TC: dont wanna let the viewers down yknow haha"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/32": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "0.736", "time": "18.764", "mood": "L2", "value": "AA: I must give you thanks, Captain Obvious. You know, if you hadn't mentioned that I probably would have failed to notice the huge red legal notice across my screen. in fact given your condition I'm doubly proud of you for noticing, you really helped me out there Michael."
+			}
+		],
+		"title": {
+			"format": "lily-title",
+			"value": "LILY"
+		}
+	},
+	"a/33": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.648", "time": "2.906", "mood": "M18", "value": "TC: sheesh haha so is it all okay?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"a/34": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "1", "time": "18.951", "mood": "L7", "value": "AA: Oh, right. Sorry, no it's not going okay actually. I'm trying to wire CC into the call but her connection seems to be compromised, hence the warning. She says she's just trying another method but if this continues I sense this would be best saved for ano-"
+			}
+		],
+		"title": {
+			"format": "lily-title",
+			"value": "LILY"
+		}
+	},
+	"b/1": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": ".429", "time": ".427", "mood": "M6A-closed", "value": "TC: ... uh"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/2": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "2.246", "time": ".355", "mood": "L7-closed", "value": "AA:"
+			}
+		],
+		"title": {
+			"format": "lily-title",
+			"value": "LILY"
+		}
+	},
+	"b/3": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.372", "time": "1.065", "mood": "M6A", "value": "TC: lets uh"
+			},
+			{
+				"delay": "2.196", "time": "1.561", "mood": "M6A", "value": "TC: lets move to the next question"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/4": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.751", "time": "2.378", "value":  "mike whats your favorite kendrick album"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/5": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.619", "time": "2.188", "mood": "M13", "value": "TC: i only ever heard good kid maad city to be honest"
+			},
+			{
+				"delay": "0.520", "time": "3.344", "mood": "M3A", "value": "TC: one time when i was bored i went looking online to see if i could find anything else"
+			},
+			{
+				"delay": "0.429", "time": "2.039", "mood": "M10", "value": "TC: was all under kdot which i thought was weird enough"
+			},
+			{
+				"delay": "0.405", "time": "2.807", "mood": "M3A", "value": "TC: but no its just a bunch of admittedly pretty shitty mixtapes"
+			},
+			{
+				"delay": "0.628", "time": "2.650", "mood": "M13", "value": "TC: like i couldnt even find the album i have in my room haha"
+			},
+			{
+				"delay": "0.363", "time": "1.214", "mood": "M10", "value": "TC: guess he quit or sumn"
+			},
+			{
+				"delay": "1.610", "time": "1.016", "mood": "M4A", "value": "TC: real shame either way"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/6": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.718", "time": "1.816", "value":  "How’s your week been, Mike?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/7": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": ".718", "time": "2.518", "mood": "M5A", "value": "TC: it has been pretty sweet overall im gonna be honest"
+			},
+			{
+				"delay": "0.776", "time": "1.684", "mood": "M3A", "value": "TC: ive not got nothin to complain about"
+			},
+			{
+				"delay": "0.182", "time": "1.990", "mood": "M3C", "value": "TC: and the more i talk to folks the more i feel like that"
+			},
+			{
+				"delay": "0.512", "time": ".958", "mood": "M3A", "value": "TC: if that makes sense"
+			},
+			{
+				"delay": "1.701", "time": "3.806", "mood": "M14", "value": "TC: sorry this things makin me a bit nervous and now i just feel kinda bad haha"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/8": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": ".908", "time": "22.021", "value":  "Mike, I'm sure your brother has a lot of thoughts and feelings on the subject but how do you feel about monsanto and their aggressive patent enforcement when it comes to their genetically modified seeds, do you believe a company should have any say on what you can or can't do with seeds you already purchased? And what about their part in agent orange? the people need to know your thoughts on this important part of the corn/agriculture industry. Also, just as importantly, who is cooler? Sonic, Metal Sonic, Shadow or Dave Strider creator of Sweet bro and Hella jeff??"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/9": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "26.372", "time": "1.057", "mood": "M15", "value": "TC: [off screen mumbling]"
+			},
+			{
+				"delay": "0.710", "time": "4.492", "mood": "M4A", "value": "TC: my bro says that the family position on monsanto is not to be stated on any public forum"
+			},
+			{
+				"delay": "1.767", "time": "2.543", "mood": "M3A", "value": "TC: and cmon man yknow my man dave is the coolest"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/10": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.925", "time": "7.629", "value":  "Mike, have you ever been trolled by the people who troll John, Dave, rose, and jade?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/11": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.776", "time": "1.866", "mood": "M9", "value": "TC: Oh man ive heard about that!"
+			},
+			{
+				"delay": ".479", "time": "2.262", "mood": "M12", "value": "TC: they seem to be having some major issues with that"
+			},
+			{
+				"delay": "1.602", "time": "1.585", "mood": "M10", "value": "TC: but i cant say ive faced the same"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/12": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "1.057", "time": "4.756", "value":  "Michael, do thou ride the motorcycle next to your house?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"b/13": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.330", "time": "1.701", "mood": "M3B", "value": "TC: my bro has a motorbike actually"
+			},
+			{
+				"delay": "0.512", "time": "2.593", "mood": "M3A", "value": "TC: but sometimes he lets me ride around while he supervises"
+			},
+			{
+				"delay": "1.783", "time": "2.857", "mood": "M5A", "value": "TC: its so cool! makes me feel like a real rider"
+			},
+			{
+				"delay": ".05", "time": ".6", "mood": "M7A", "value": "TC: wait uh how did you.."
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/1": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.58", "time": "1.58", "mood": "M7A", "value": "TC: ok sorry about that"
+			},
+			{
+				"delay": "0.47", "time": "1.06", "mood": "M3A", "value": "TC: i think were back now"
+			},
+			{
+				"delay": "1.81", "time": "0.81", "mood": "M3B", "value": "TC: where were we"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/2": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.72", "time": "3.86", "value":  "mike can you explain in more detail your thoughts on noxyquest"
+			}
+		]
+	},
+	"c/3": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.70", "time": "1.60", "mood": "M3A", "value": "TC: wow yeah noxyquest"
+			},
+			{
+				"delay": "0.52", "time": "1.83", "mood": "M4C", "value": "TC: look i really love like random humour"
+			},
+			{
+				"delay": "0.43", "time": "1.81", "mood": "M4A", "value": "TC: you kinda have to to get the nuances of like"
+			},
+			{
+				"delay": "0.45", "time": "1.98", "mood": "M3A", "value": "TC: sweet bro and hella jeff for instance"
+			},
+			{
+				"delay": "0.703", "time": "1.94", "mood": "M3C", "value": "TC: yeah real random example i know haha"
+			},
+			{
+				"delay": "0.60", "time": "2.61", "mood": "M7A", "value": "TC: but when i tried reading it the whole thing just went over my head"
+			},
+			{
+				"delay": "0.96", "time": "2.40", "mood": "M7B", "value": "TC: it feels like a big in-joke that i dont even have the setup for"
+			},
+			{
+				"delay": "1.84", "time": "1.90", "mood": "M7A", "value": "TC: guess its just some obscure reference humour"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/4": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.86", "time": "4.99", "value":  "Michealangelo Corncoberton, how do you feel about Obama so far?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/5": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.51", "time": "2.25", "mood": "M4C", "value": "TC: theres a little bro on my shoulder who says that he's like"
+			},
+			{
+				"delay": "0.52", "time": "1.22", "mood": "M4A", "value": "TC: not going to do much"
+			},
+			{
+				"delay": "0.63", "time": "3.89", "mood": "M9", "value": "TC: and theres like a little dave on the other shoulder that says some stuff about the econony of course"
+			},
+			{
+				"delay": "1.73", "time": "2.58", "mood": "M3A", "value": "TC: i mean he made it into sbahj so he must be doin somethin right"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/6": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.69", "time": "3.51", "value":  "What do you think of katanas?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/7": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.71", "time": "1.78", "mood": "M11", "value": "TC: dave thinks theyre like the coolest thing ever"
+			},
+			{
+				"delay": "0.68", "time": "2.12", "mood": "M3A", "value": "TC: i mean both him and his awesome ninja bro use them"
+			},
+			{
+				"delay": "0.65", "time": "3.43", "mood": "M5A", "value": "TC: he told me they even have rooftop battles and practice techniques which is awesome"
+			},
+			{
+				"delay": "0.66", "time": "3.47", "mood": "M7A", "value": "TC: but then my bro says theyre a symbol of the fetishisation of state violence"
+			},
+			{
+				"delay": "0.68", "time": "1.94", "mood": "M10", "value": "TC: he uses smth called a \"jian mace\""
+			},
+			{
+				"delay": "1.29", "time": "2.12", "mood": "M12", "value": "TC: hmm i guess its what i think though right"
+			},
+			{
+				"delay": "1.73", "time": "2.86", "mood": "M14", "value": "TC: well im not all that down with weapons in general really"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/8": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.64", "time": "5.78", "value":  "yo mikey, what's the secret to being so goshdarned cool like you? i wanna be cool!"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/9": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.55", "time": "1.80", "mood": "M9", "value": "TC: the trick is not to sweat it i think"
+			},
+			{
+				"delay": "0.37", "time": "2.55", "mood": "M8B", "value": "TC: if you keep everything bottled up youll just look a bit sad"
+			},
+			{
+				"delay": "0.60", "time": "2.82", "mood": "M3A", "value": "TC: but if you rely on your friends and tell them how you really feel"
+			},
+			{
+				"delay": "1.92", "time": "2.40", "mood": "M5A", "value": "TC: thats how you keep up a chill appearance haha"
+			},
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/10": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "1.26", "time": "15.52", "value":  "Mikey boy, gotta know, thoughts and theories on Sweet Bro and Hella Jeff? Wanted to know some of that deep analysis you surely have, like all those important lessons it teaches. Also your favorite character, gotta know, always gotta know"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/11": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.22", "time": "2.37 ", "mood": "M3C", "value": "TC: well i love the comic so much"
+			},
+			{
+				"delay": "0.50", "time": "3.34", "mood": "M13", "value": "TC: but anyone who knows me also knows i wont shut up about it lol"
+			},
+			{
+				"delay": "0.05", "time": "1.03", "mood": "M10", "value": "TC: for theories?"
+			},
+			{
+				"delay": "0.55", "time": "2.87", "mood": "M11", "value": "TC: hmm well i always kinda thought it was just a bit of fun yknow"
+			},
+			{
+				"delay": "0.60", "time": "2.16", "mood": "M12", "value": "TC: if i had to make up one up then maybe"
+			},
+			{
+				"delay": "2.82", "time": "6.88", "mood": "M9", "value": "TC: what if sweet bro was actually like evil and he pushed hella jeff down the stairs? wouldnt that be kinda messed up haha"
+			},
+			{
+				"delay": "2.45", "time": "1.97", "mood": "M16", "value": "TC: oh damn wait do you think we could get dave on here"
+			},
+			{
+				"delay": "1.31", "time": "0.37", "mood": "M7A", "value": "TC: lily"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/12": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "0.52", "time": "2.94", "mood": "L1", "value": "AA: Barely heard you through this absurd display."
+			},
+			{
+				"delay": "1.01", "time": "3.14", "mood": "L2", "value": "AA: For something with such a big mouth, Domo's pretty quiet."
+			}
+		],
+		"title": {
+			"format": "lily-title",
+			"value": "LILY"
+		}
+	},
+	"c/13": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.89", "time": "1.78", "mood": "M22", "value": "TC: i dont know actually hes probably really busy"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"c/14": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "0.82", "time": "1.19", "mood": "L2", "value": "AA: Who, Dave?"
+			},
+			{
+				"delay": "0.82", "time": "1.03", "mood": "L5", "value": "AA: Really doubt it."
+			},
+			{
+				"delay": "2.10", "time": "5.61", "mood": "L4", "value": "AA: Call him, just let me know when you're done. I'll go get a drink if downstairs is safe."
+			}
+		],
+		"title": {
+			"format": "lily-title",
+			"value": "LILY"
+		}
+	},
+	"c/15": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "1.3", "time": "3.81", "mood": "M21", "value": "TC: ah jeez theres actually kinda pressure on me here to follow through now thanks lily"
+			},
+			{
+				"delay": "2.30", "time": "2.01", "mood": "M8A", "value": "TC: alright ok give me a minute"
+			},
+			{
+				"delay": "2.08", "time": "6.57", "mood": "M31", "value": "TC: ok no big deal right mike just calling dave its no biggie you talk to him all the time oh god haha"
+			},
+			{
+				"delay": "0.40", "time": "1.02", "mood": "M32", "value": "TC: you know what big guy"
+			},
+			{
+				"delay": "0.81", "time": "1.93", "mood": "M32", "value": "TC: i fuckin believe in you"
+			},
+			{
+				"delay": "0.50", "time": "1.82", "mood": "M33", "value": "TC: you can DO this"
+			},
+			{
+				"delay": "0.83", "time": "2.39", "mood": "M32", "value": "TC: yeah"
+			},
+			{
+				"delay": "0.54", "time": "1.37", "mood": "M3A", "value": "TC: sorry about that"
+			},
+			{
+				"delay": "0.70", "time": "0.97 ", "mood": "M25", "value": "TC: lemme pull this up here"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/1": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.903", "time": "5.797", "value":  "mike can you make the last letter of your name into a \"u\" instead of an \"e\""
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/2": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.257", "time": ".604", "mood": "M7A", "value": "TC: Miku?"
+			},
+			{
+				"delay": "0.014", "time": "1.090", "mood": "M7B", "value": "TC: like that uh…"
+			},
+			{
+				"delay": "0.597", "time": "0.906", "mood": "M7A", "value": "TC: anime singing girl?"
+			},
+			{
+				"delay": "1.611", "time": "0.747", "mood": "M3C", "value": "TC: its a cool name…"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/3": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "1.226", "time": "2.906", "value":  "How do you do your hair? It's fabulous!"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/4": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.502", "time": "3.328", "mood": "M3A", "value": "TC: bro makes natural hair gel outta processed corn… strong stuff!"
+			},
+			{
+				"delay": "1.448", "time": "0.806", "mood": "M11", "value": "TC: Flammable too…"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/5": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.905", "time": "5.587", "value":  "michael, was there anything or anyone that inspired you to grow your hair out?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/6": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.344", "time": "1.827", "mood": "M3B", "value": "TC: was really a lot of things that came together"
+			},
+			{
+				"delay": "0.730", "time": "1.716", "mood": "M3A", "value": "TC: if you wanna get specific uhh"
+			},
+			{
+				"delay": "0.654", "time": "3.450", "mood": "M14", "value": "TC: i guess i did it when bro said I could but like thats boring haha"
+			},
+			{
+				"delay": "0.893", "time": "2.125", "mood": "M3A", "value": "TC: im just growin it until i feel normal about it"
+			},
+			{
+				"delay": "0.321", "time": "1.430", "mood": "M3C", "value": "TC: not that i feel bad its just"
+			},
+			{
+				"delay": "0.671", "time": "0.590", "mood": "M3B", "value": "TC: idk"
+			},
+			{
+				"delay": "1.454", "time": "5.097", "mood": "M3A", "value": "TC: if John asks I did it cause of nicolas cage in con air tho cause that dudes curls are hella majestic"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/7": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.765", "time": "4.064", "value":  "Mike. What do you think about John and his other group of friends?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/8": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.584", "time": "2.236", "mood": "M5A", "value": "TC: johns like my original best bro"
+			},
+			{
+				"delay": "0.473", "time": "2.160", "mood": "M5B", "value": "TC: hangin at his was always the best"
+			},
+			{
+				"delay": "0.566", "time": "3.865", "mood": "M5A", "value": "TC: his friends seem totally cool i mean dave of course is just about the coolest guy ever"
+			},
+			{
+				"delay": "0.088", "time": "1.512", "mood": "M4B", "value": "TC: tt seems…"
+			},
+			{
+				"delay": "0.765", "time": "0.736", "mood": "M4A", "value": "TC: intense"
+			},
+			{
+				"delay": "0.771", "time": "2.470", "mood": "M5A", "value": "TC: but if shes friends with john and lily she must be cool"
+			},
+			{
+				"delay": "0.479", "time": "2.890", "mood": "M10", "value": "TC: ive heard a bit about gg? It all sounds a bit odd though"
+			},
+			{
+				"delay": "1.500", "time": "3.205", "mood": "M3A", "value": "TC: i think dave is exaggerating a bit with all that psychic hellbeast stuff"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/9": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.864", "time": "4.204", "value":  "what is, if you even have one, your middle name?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/10": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.619", "time": "2.581", "mood": "M14", "value": "TC: well you see i dont have a real middle name"
+			},
+			{
+				"delay": "0.671", "time": "2.908", "mood": "M3B", "value": "TC: but i always kinda wanted one so i didnt feel left out as a kid"
+			},
+			{
+				"delay": "0.543", "time": "3.550", "mood": "M3A", "value": "TC: i asked john and he said that since i love birds so much why dont i call myself hawk"
+			},
+			{
+				"delay": "1.092", "time": "3.970", "mood": "M5A", "value": "TC: and i probably would have fell for it too if he didnt laugh so much he almost threw up haha"
+			},
+			{
+				"delay": "1.471", "time": "1.378", "mood": "M8A", "value": "TC: his jokes are the best"
+			},
+			{
+				"delay": "0.531", "time": "1.372", "mood": "M16", "value": "TC: oh hey surprise guest"
+			},
+			{
+				"delay": "0.771", "time": "2.662", "mood": "M18", "value": "TC: egbro is tryna IM me can i invite him to the call lily?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"d/11": {
+		"format": "lily",
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily"
+		},
+		"text": [
+			{
+				"delay": "0.701", "time": "10.608", "mood": "L2", "value": "AA: We do have a schedule you know, but as long as it's quick we should be able to compensate for it. Approxmately 15 minutes of leeway, as it stands. Go ahead."
+			}
+		],
+		"title": {
+			"format": "lily-title",
+			"value": "LILY"
+		}
+	},
+	"d/12": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.1", "time": "1.179", "mood": "M18", "value": "TC: thanks lils youre the best"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"e/1": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.933", "time": "3.201", "value":  "Mike, who is your favorite Kamen Rider?"
+			}
+		],
+		"title": {
+			"format": "john-title",
+			"value": "JOHN"
+		}
+	},
+	"e/2": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "1.463", "time": "1.944", "mood": "M5A", "value": "TC: Kuuga, man its not even close"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"e/3": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.628", "time": "3.388", "value":  "Mike, does your bro have a favourite Che quote?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"e/4": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.854", "time": "3.132", "mood": "M9", "value": "TC: “The true revolutionary is guided by great feelings of love.”"
+			},
+			{
+				"delay": "1.306", "time": "1.208", "mood": "M3A", "value": "TC: that one always spoke to me"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"e/5": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.943", "time": "4.743", "value":  "hi Mike! I want to ask what do you and your bro get up to when he's not at work? :3"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"e/6": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.609", "time": "3.427", "mood": "M14", "value": "TC: to be honest even the few times hes here hes still doin a lot of work around the farm"
+			},
+			{
+				"delay": "0.697", "time": "2.70", "mood": "M3A", "value": "TC: so a lot of the time we spend is the two of us hangin out on the farm"
+			},
+			{
+				"delay": "0.795", "time": "5.224", "mood": "M3B", "value": "TC: we didnt grow up with the most money so he just wants to make sure i can have a good life and eventually a good college"
+			},
+			{
+				"delay": "0.697", "time": "1.149", "mood": "M3A", "value": "TC: its like he always says"
+			},
+			{
+				"delay": "0.501", "time": "6.991", "mood": "M9", "value": "TC: 'The best way to be paid is unmarked bills from odd jobs in a way that can't be tracked by the government to supplement legitimate income from a corn business.'"
+			},
+			{
+				"delay": "1.856", "time": "0.805", "mood": "M3A", "value": "TC: hes a cool guy"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"e/7": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "0.923", "time": "6.068", "value":  "mike whats your favorite thing in oklahoma"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"e/8": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": ".638", "time": "1.345", "mood": "M3C", "value": "TC: honestly i love this house"
+			},
+			{
+				"delay": "1.581", "time": "3.427", "mood": "M3B", "value": "TC: and getting to live here alongside daisy and my bro is basically the coolest"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"e/9": {
+		"format": "narrator",
+		"id": "narrator",
+		"text": [
+			{
+				"delay": "1.306", "time": "2.425", "value":  "What was it like in Washington?"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+	"e/10": {
+		"format": "mike",
+		"id": "middle",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"delay": "0.835", "time": "0.619", "mood": "M6A", "value": "TC: Man i-"
+			},
+			{
+				"delay": "0.825", "time": "2.082", "mood": "M6C", "value": "TC: i miss bein back there yknow?"
+			},
+			{
+				"delay": "0.589", "time": "3.289", "mood": "M6B", "value": "TC: like i get we had to move and all, but it cant have been easy on john"
+			},
+			{
+				"delay": "0.275", "time": "1.443", "mood": "M6A", "value": "TC: john already had some…"
+			},
+			{
+				"delay": "0.550", "time": "1.512", "mood": "M6B", "value": "TC: stuff to work through"
+			},
+			{
+				"delay": "1.777", "time": "1.866", "mood": "M6C", "value": "TC: and all of us moving away didnt seem to help"
+			},
+			{
+				"delay": ".589", "time": "1.610", "mood": "M8C", "value": "TC: man wow i"
+			},
+			{
+				"delay": "0.795", "time": "2.258", "mood": "M8B", "value": "TC: yeah... i think im gonna leave it here"
+			},
+			{
+				"delay": "0.5", "time": "1.208", "mood": "M8A", "value": "TC: thanks for comin everyone"
+			}
+		],
+		"title": {
+			"format": "mike-title",
+			"value": "MIKE"
+		}
+	},
+}

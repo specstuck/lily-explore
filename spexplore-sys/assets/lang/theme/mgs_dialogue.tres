@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dbuf3wk2itui0"]
+
+[ext_resource type="FontFile" uid="uid://cd57les7csmbm" path="res://assets/lang/couriernew.ttf" id="1_vhlh5"]
+
+[resource]
+default_font = ExtResource("1_vhlh5")
+default_font_size = 20
+RichTextLabel/colors/default_color = Color(1, 1, 1, 1)

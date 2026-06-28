@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://dymhlq7profyv"]
+
+[ext_resource type="Texture2D" uid="uid://dd3ch2ul0ixa5" path="res://icon.svg" id="1_onu0l"]
+[ext_resource type="Script" uid="uid://cbrwnpl4f5eh6" path="res://scripts/click_template.gd" id="1_wwpa5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wwpa5"]
+size = Vector2(128, 130)
+
+[node name="ClickTemplate" type="Area2D"]
+script = ExtResource("1_wwpa5")
+dialogue_event = "1"
+flag_value = false
+
+[node name="Label" type="Label" parent="."]
+visible = false
+offset_left = -19.0
+offset_top = 72.0
+offset_right = 19.0
+offset_bottom = 95.0
+size_flags_vertical = 1
+text = "TEXT"
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_wwpa5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_onu0l")

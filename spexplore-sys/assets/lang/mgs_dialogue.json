@@ -1,0 +1,172 @@
+{
+	"1": {
+		"id": "right",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "eden"
+		},
+		"text": [
+			{
+				"value": "CC: Salut!!!"
+			},
+			{
+				"value": "CC: im so glad this worked!!! I am on the live stream, oui? :3 (cat noises where :3 is)"
+			}
+		]
+	},
+	"2": {
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"value": "TC: woah there haha welcome"
+			},
+			{
+				"value": "TC: can you turn your mic down a lil youre burstin my eardrums here lol"
+			}
+		]
+	},
+	"3": {
+		"id": "right",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "eden"
+		},
+		"text": [
+			{
+				"value": "CC: Oh sorry!!! new satphone, hope ur ok! :3"
+			}
+		]
+	},
+	"4": {
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"value": "TC: yeah were all good here arent we lily"
+			}
+		]
+	},
+	"5": {
+		"id": "right",
+		"sprite": {
+			"mood": "speaking"
+		},
+		"text": [
+			{
+				"speaker": "lily",
+				"value": "AA: Yes, CC, despite your insistence on cold war era technology and the inherent issues those present, we are all doing \"Okay\" here. It's good to have you with us."
+			},
+			{
+				"speaker": "eden",
+				"value": "CC: ok, yay!"
+			},
+			{
+				"value": "CC: its so nice to actually hear you two again!"
+			}
+		]
+	},
+	"6": {
+		"id": "left",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "mike"
+		},
+		"text": [
+			{
+				"value": "TC: dude yeah, todays shapin up to be a full on reunion"
+			}
+		]
+	},
+	"7": {
+		"id": "right",
+		"sprite": {
+			"mood": "speaking",
+			"speaker": "lily",
+		},
+		"text": [
+			{
+				"value": "AA: It appears we actually have a question for our far off friend."
+			},
+			{
+				"value": "AA: \"CC how the hell did you end up over there?\""
+			},
+		]
+	},
+	"8": {
+		"id": "left",
+		"sprite": {
+			"speaker": "eden",
+			"mood": "speaking",
+		},
+		"text": [
+			{
+				"value": "CC: funny story..."
+			},
+			{
+				"value": "CC: i hid in my my sis' luggage!!!"
+			},
+			{
+				"value": "CC: she was sooo mad hehehe"
+			},
+			{
+				"value": "CC: but when we got there the airstrip got bombed! and all the roads got checkpoints"
+			},
+			{
+				"value": "CC: so she let me stay :3"
+			},
+			{
+				"value": "CC: good thing she did!!! this place would fall apart without me :3c"
+			},
+			{
+				"speaker": "mike",
+				"value": "TC: man you were crazy for that"
+			},
+			{
+				"value": "TC: i mean i get wantin to stay with family but damn"
+			}
+		]
+	},
+	"9": {
+		"id": "right",
+		"sprite": {
+			"speaker": "lily",
+			"mood": "speaking",
+		},
+		"text": [
+			{
+				"value": "AA: I can not think of a sentiment I relate to less."
+			},
+			{
+				"value": "AA: And I seriously hope you are overstating your involvement in your sisters business."
+			},]
+		},
+	"10": {
+		"id": "left",
+		"sprite": {
+			"speaker": "eden",
+			"mood": "speaking",
+		},
+		"text": [
+			{
+				"value": "CC: pfft dont be silly lily!"
+			},
+			{
+				"value": "CC: im a pro at this stuff :3"
+			},
+			{
+				"delay": 3.0,
+				"value": "CC: in fact just yesterday-"
+			},
+			{
+				"value": "CC: oops sorry guys gotta go! hehe :3"
+			}
+		]
+	}
+}

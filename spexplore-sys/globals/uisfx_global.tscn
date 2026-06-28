@@ -1,0 +1,36 @@
+[gd_scene load_steps=8 format=3 uid="uid://c5dek2247t8hf"]
+
+[ext_resource type="Script" uid="uid://b2023ccxn84yp" path="res://globals/uisfx_global.gd" id="1_f7mx6"]
+[ext_resource type="AudioStream" uid="uid://76prpkuv63xw" path="res://SFX/menu blip.mp3" id="1_t053m"]
+[ext_resource type="AudioStream" uid="uid://bpwgmgy882ar7" path="res://SFX/placeholder/Saved.mp3" id="2_f7mx6"]
+[ext_resource type="AudioStream" uid="uid://v4tu5xxof8ri" path="res://SFX/placeholder/Back.mp3" id="3_cvtc4"]
+[ext_resource type="AudioStream" uid="uid://bq77k6fggvx4r" path="res://SFX/placeholder/Checkpoint_Found.mp3" id="4_nqmad"]
+[ext_resource type="AudioStream" uid="uid://dpao5bor6bd8b" path="res://SFX/placeholder/Enter_level.mp3" id="5_beqpl"]
+[ext_resource type="AudioStream" uid="uid://barqdnq5cbh77" path="res://SFX/placeholder/Slider_Change.mp3" id="6_cslwt"]
+
+[node name="UISFXGlobal" type="Node"]
+script = ExtResource("1_f7mx6")
+
+[node name="blip" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_t053m")
+bus = &"SFX"
+
+[node name="saved" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_f7mx6")
+bus = &"SFX"
+
+[node name="back" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_cvtc4")
+bus = &"SFX"
+
+[node name="checkpoint_found" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_nqmad")
+bus = &"SFX"
+
+[node name="level_entered" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_beqpl")
+bus = &"SFX"
+
+[node name="slider_changed" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_cslwt")
+bus = &"SFX"
