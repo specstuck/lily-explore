@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://253lcb2k7lgm"]
+
+[ext_resource type="Script" uid="uid://dk213gk5d7shw" path="res://scenes/room.gd" id="1_36trf"]
+[ext_resource type="Texture2D" uid="uid://dd3ch2ul0ixa5" path="res://icon.svg" id="3_85yof"]
+
+[node name="Room" type="Node2D"]
+script = ExtResource("1_36trf")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1154.0
+offset_bottom = 650.0
+texture = ExtResource("3_85yof")
+metadata/_edit_use_anchors_ = true

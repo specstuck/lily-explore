@@ -1,0 +1,41 @@
+[gd_scene load_steps=9 format=3 uid="uid://f1uwar5jaoeu"]
+
+[ext_resource type="PackedScene" uid="uid://253lcb2k7lgm" path="res://scenes/room.tscn" id="1_4ii1u"]
+[ext_resource type="Texture2D" uid="uid://bnxfhwrylkflu" path="res://assets/texture/room/G4913pFWUAEgM6y.png" id="2_pl3j1"]
+[ext_resource type="PackedScene" uid="uid://dymhlq7profyv" path="res://scenes/click_template.tscn" id="3_dwdwa"]
+[ext_resource type="Texture2D" uid="uid://qh1rb22804bl" path="res://assets/texture/animations/frames/mike_trickster_closed.png" id="4_1bbgs"]
+[ext_resource type="Texture2D" uid="uid://dg7kevuhc7hiw" path="res://assets/texture/animations/frames/lily_neutral_open.png" id="5_4t5ac"]
+[ext_resource type="Texture2D" uid="uid://b4cdxgm42kmum" path="res://assets/texture/room/canada 2009.png" id="6_8wurk"]
+[ext_resource type="Texture2D" uid="uid://djtdh363evjaj" path="res://assets/texture/textbox_grey.png" id="7_g3tvx"]
+[ext_resource type="Texture2D" uid="uid://blafgm3uyvj5l" path="res://assets/texture/room/charity stuck ui.png" id="8_xj13k"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Rooms" type="Node" parent="." groups=["rooms_parent"]]
+
+[node name="Room" parent="Rooms" instance=ExtResource("1_4ii1u")]
+background = ExtResource("2_pl3j1")
+
+[node name="ClickTemplate" parent="Rooms/Room" instance=ExtResource("3_dwdwa")]
+position = Vector2(578, 335)
+scene_mover = true
+scene_location = 1
+click_image = ExtResource("4_1bbgs")
+
+[node name="Room2" parent="Rooms" instance=ExtResource("1_4ii1u")]
+room_number = 1
+background = ExtResource("5_4t5ac")
+
+[node name="ClickTemplate" parent="Rooms/Room2" instance=ExtResource("3_dwdwa")]
+position = Vector2(775, 330)
+click_image = ExtResource("6_8wurk")
+
+[node name="ClickTemplate2" parent="Rooms/Room2" instance=ExtResource("3_dwdwa")]
+position = Vector2(388, 327)
+scene_mover = true
+scene_location = 2
+click_image = ExtResource("7_g3tvx")
+
+[node name="Room3" parent="Rooms" instance=ExtResource("1_4ii1u")]
+room_number = 2
+background = ExtResource("8_xj13k")

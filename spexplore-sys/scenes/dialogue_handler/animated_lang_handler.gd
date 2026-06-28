@@ -9,7 +9,8 @@ class_name AnimatedLangHandler extends LangHandler
 @export var talk_start_anim: String = "" #Plays during a line
 @export var talk_stop_anim: String = "" #Plays during a line
 
-var animations: Dictionary = {
+
+@onready var animations: Dictionary = {
 	"intro": intro_anim,
 	"outro": outro_anim,
 	"talking": talk_anim,

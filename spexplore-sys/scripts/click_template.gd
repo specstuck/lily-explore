@@ -6,18 +6,33 @@ class_name ClickableItem
 
 ## Optional sound to play when clicked (passed to UisfxSound.play)
 @export var click_sound: String = ""
+@export var label_text = ""
 
 ## Optional flag to set when clicked (passed to EventHandler.set_flag)
 @export var flag_name: String = ""
 @export var flag_value = true
 
+## Optional location for new scene on click
+@export var scene_mover = false
+@export var scene_location = 0
+
+@export var click_image: CompressedTexture2D
+
 @onready var hover_label: Label = $Label 
 
+
+
 func _ready() -> void:
+	$Label.text = label_text
 	if hover_label:
 		hover_label.visible = false
+	$Sprite2D.texture = click_image
 	# Enable mouse detection
 	input_pickable = true
+	var collision_shape = $CollisionShape2D
+	if collision_shape:
+		var img_size = click_image.get_size()
+		collision_shape.shape.extents = img_size / 2
 	mouse_entered.connect(_on_mouse_entered)
 	mouse_exited.connect(_on_mouse_exited)
 	input_event.connect(_on_input_event)
@@ -46,3 +61,5 @@ func interact() -> void:
 	# 3. Update progress flag if provided
 	if not flag_name.is_empty():
 		EventHandler.set_flag(flag_name, flag_value)
+	if scene_mover:
+		RoomManager.change_room(scene_location)
