@@ -20,8 +20,6 @@ class_name ClickableItem
 
 @onready var hover_label: Label = $Label 
 
-
-
 func _ready() -> void:
 	$Label.text = label_text
 	if hover_label:
@@ -62,4 +60,7 @@ func interact() -> void:
 	if not flag_name.is_empty():
 		EventHandler.set_flag(flag_name, flag_value)
 	if scene_mover:
+		if(scene_location == -1):
+			RoomManager.back()
+			return
 		RoomManager.change_room(scene_location)

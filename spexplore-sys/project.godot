@@ -22,6 +22,7 @@ DialogueHelper="*res://globals/dialogue_helper.gd"
 MusicManager="*res://globals/MusicManager.tscn"
 UisfxSound="*res://globals/uisfx_global.tscn"
 UisfxGlobal="res://globals/uisfx_global.gd"
+RoomManager="*res://globals/room_manager.gd"
 
 [display]
 

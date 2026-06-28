@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0hd1helv4apf"]
+
+[ext_resource type="PackedScene" uid="uid://253lcb2k7lgm" path="res://scenes/room.tscn" id="1_se1is"]
+
+[node name="Explore" type="Node2D"]
+
+[node name="Rooms" type="Node" parent="." groups=["rooms_parent"]]
+
+[node name="Room" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room2" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room3" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room4" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room5" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room6" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room7" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room8" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room9" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room10" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room11" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room12" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room13" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room14" parent="Rooms" instance=ExtResource("1_se1is")]
+
+[node name="Room15" parent="Rooms" instance=ExtResource("1_se1is")]

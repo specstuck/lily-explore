@@ -1,13 +1,14 @@
-[gd_scene load_steps=9 format=3 uid="uid://f1uwar5jaoeu"]
+[gd_scene load_steps=10 format=3 uid="uid://f1uwar5jaoeu"]
 
 [ext_resource type="PackedScene" uid="uid://253lcb2k7lgm" path="res://scenes/room.tscn" id="1_4ii1u"]
-[ext_resource type="Texture2D" uid="uid://bnxfhwrylkflu" path="res://assets/texture/room/G4913pFWUAEgM6y.png" id="2_pl3j1"]
+[ext_resource type="Texture2D" uid="uid://qs5dgiw0nvxq" path="res://assets/texture/MGS screen/G4913pFWUAEgM6y.png" id="2_pl3j1"]
 [ext_resource type="PackedScene" uid="uid://dymhlq7profyv" path="res://scenes/click_template.tscn" id="3_dwdwa"]
-[ext_resource type="Texture2D" uid="uid://qh1rb22804bl" path="res://assets/texture/animations/frames/mike_trickster_closed.png" id="4_1bbgs"]
-[ext_resource type="Texture2D" uid="uid://dg7kevuhc7hiw" path="res://assets/texture/animations/frames/lily_neutral_open.png" id="5_4t5ac"]
-[ext_resource type="Texture2D" uid="uid://b4cdxgm42kmum" path="res://assets/texture/room/canada 2009.png" id="6_8wurk"]
+[ext_resource type="Texture2D" uid="uid://qh1rb22804bl" path="res://assets/texture/animations/frames/mike/mike_trickster_closed.png" id="4_1bbgs"]
+[ext_resource type="Texture2D" uid="uid://dg7kevuhc7hiw" path="res://assets/texture/animations/frames/lily/lily_neutral_open.png" id="5_4t5ac"]
+[ext_resource type="Texture2D" uid="uid://b4cdxgm42kmum" path="res://assets/texture/MGS screen/canada 2009.png" id="6_8wurk"]
 [ext_resource type="Texture2D" uid="uid://djtdh363evjaj" path="res://assets/texture/textbox_grey.png" id="7_g3tvx"]
-[ext_resource type="Texture2D" uid="uid://blafgm3uyvj5l" path="res://assets/texture/room/charity stuck ui.png" id="8_xj13k"]
+[ext_resource type="Texture2D" uid="uid://blafgm3uyvj5l" path="res://assets/texture/MGS screen/charity stuck ui.png" id="8_xj13k"]
+[ext_resource type="Texture2D" uid="uid://cax4xnfcnylv3" path="res://assets/texture/side.png" id="9_g3tvx"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -39,3 +40,11 @@ click_image = ExtResource("7_g3tvx")
 [node name="Room3" parent="Rooms" instance=ExtResource("1_4ii1u")]
 room_number = 2
 background = ExtResource("8_xj13k")
+
+[node name="ClickTemplate" parent="." instance=ExtResource("3_dwdwa")]
+z_index = 1
+position = Vector2(101, 566)
+dialogue_event = ""
+scene_mover = true
+scene_location = -1
+click_image = ExtResource("9_g3tvx")
