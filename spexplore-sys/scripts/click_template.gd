@@ -1,3 +1,4 @@
+@tool
 extends Area2D
 class_name ClickableItem
 
@@ -16,7 +17,16 @@ class_name ClickableItem
 @export var scene_mover = false
 @export var scene_location = 0
 
-@export var click_image: CompressedTexture2D
+@export var click_image: CompressedTexture2D:
+	set(value):
+		click_image = value
+		$Sprite2D.texture = value
+		var collision_shape = $CollisionShape2D
+		if collision_shape:
+			var bounding_box = RectangleShape2D.new()
+			bounding_box.size = click_image.get_size()
+			$CollisionShape2D.shape = bounding_box
+		#$CollisionShape2D.shape.size = value.get_size()
 
 @onready var hover_label: Label = $Label 
 
@@ -24,13 +34,10 @@ func _ready() -> void:
 	$Label.text = label_text
 	if hover_label:
 		hover_label.visible = false
-	$Sprite2D.texture = click_image
+	#$Sprite2D.texture = click_image
 	# Enable mouse detection
 	input_pickable = true
-	var collision_shape = $CollisionShape2D
-	if collision_shape:
-		var img_size = click_image.get_size()
-		collision_shape.shape.extents = img_size / 2
+
 	mouse_entered.connect(_on_mouse_entered)
 	mouse_exited.connect(_on_mouse_exited)
 	input_event.connect(_on_input_event)
@@ -48,6 +55,7 @@ func _on_input_event(_viewport: Node, event: InputEvent, _shape_idx: int) -> voi
 		interact()
 
 func interact() -> void:
+	#print($CollisionShape2D.shape.size)
 	# 1. Start dialogue
 	if not dialogue_event.is_empty():
 		EventHandler.dialogue_start(dialogue_event)

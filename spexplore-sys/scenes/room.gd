@@ -1,8 +1,12 @@
+@tool
 extends Node2D
 class_name Room
 
 @export var room_number: int = 0
-@export var background: CompressedTexture2D
+@export var background: Texture2D:
+	set(value):
+		background = value
+		$TextureRect.texture = value
 
 func get_room_number() -> int:
 	return room_number
