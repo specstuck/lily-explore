@@ -30,7 +30,7 @@ window/stretch/mode="canvas_items"
 
 [editor]
 
-movie_writer/movie_file="export.avi"
+movie_writer/movie_file="/media/Mass/Recordings/export.avi"
 
 [rendering]
 

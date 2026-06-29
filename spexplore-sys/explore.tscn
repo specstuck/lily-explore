@@ -1,37 +1,243 @@
-[gd_scene load_steps=2 format=3 uid="uid://d0hd1helv4apf"]
+[gd_scene load_steps=23 format=3 uid="uid://d0hd1helv4apf"]
 
 [ext_resource type="PackedScene" uid="uid://253lcb2k7lgm" path="res://scenes/room.tscn" id="1_se1is"]
+[ext_resource type="Texture2D" uid="uid://1fim5i22i48h" path="res://assets/backgrounds/image.png" id="2_dsqco"]
+[ext_resource type="PackedScene" uid="uid://dymhlq7profyv" path="res://scenes/click_template.tscn" id="2_rpntm"]
+[ext_resource type="Texture2D" uid="uid://flbrgtckkkel" path="res://assets/texture/front.png" id="4_yvajj"]
+[ext_resource type="Texture2D" uid="uid://cax4xnfcnylv3" path="res://assets/texture/side.png" id="5_i6kcn"]
+[ext_resource type="Texture2D" uid="uid://y2carg0bh0ky" path="res://assets/texture/back.png" id="6_cwd3l"]
+[ext_resource type="Texture2D" uid="uid://gisph3qtdlcm" path="res://assets/texture/angle.png" id="7_0krlp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dsqco"]
+atlas = ExtResource("2_dsqco")
+region = Rect2(35.713055, 33.633198, 358.8926, 271.96356)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dsqco"]
+load_path = "res://.godot/imported/image.png-a6f79312ffb0b17b58975fabffa969b7.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hci6w"]
+atlas = SubResource("CompressedTexture2D_dsqco")
+region = Rect2(422.00012, 30.00003, 378.18195, 274.54553)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yvajj"]
+load_path = "res://.godot/imported/image.png-a6f79312ffb0b17b58975fabffa969b7.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6kcn"]
+atlas = SubResource("CompressedTexture2D_yvajj")
+region = Rect2(827.0413, 31.889648, 375.6574, 272.5845)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3vrjv"]
+load_path = "res://.godot/imported/image.png-a6f79312ffb0b17b58975fabffa969b7.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o640m"]
+atlas = SubResource("CompressedTexture2D_3vrjv")
+region = Rect2(424.64484, 333.3948, 378.19757, 247.34225)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cwd3l"]
+load_path = "res://.godot/imported/image.png-a6f79312ffb0b17b58975fabffa969b7.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0krlp"]
+atlas = SubResource("CompressedTexture2D_cwd3l")
+region = Rect2(35.48564, 333.14496, 356.40887, 245.88489)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_j4xsf"]
+load_path = "res://.godot/imported/image.png-a6f79312ffb0b17b58975fabffa969b7.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fh8pw"]
+atlas = SubResource("CompressedTexture2D_j4xsf")
+region = Rect2(829.4876, 331.66718, 373.06598, 246.31592)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_h3i4t"]
+load_path = "res://.godot/imported/image.png-a6f79312ffb0b17b58975fabffa969b7.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_adj2x"]
+atlas = SubResource("CompressedTexture2D_h3i4t")
+region = Rect2(35.495422, 604.7625, 357.8765, 273.20538)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1vg5q"]
+load_path = "res://.godot/imported/image.png-a6f79312ffb0b17b58975fabffa969b7.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0wup"]
+atlas = SubResource("CompressedTexture2D_1vg5q")
+region = Rect2(422.70227, 607.9945, 381.01996, 269.8186)
 
 [node name="Explore" type="Node2D"]
 
 [node name="Rooms" type="Node" parent="." groups=["rooms_parent"]]
 
-[node name="Room" parent="Rooms" instance=ExtResource("1_se1is")]
+[node name="Room0" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+background = SubResource("AtlasTexture_dsqco")
+
+[node name="ClickTemplate" parent="Rooms/Room0" instance=ExtResource("2_rpntm")]
+position = Vector2(188, 539)
+rotation = -0.32637656
+dialogue_event = ""
+scene_mover = true
+scene_location = 1
+click_image = ExtResource("4_yvajj")
+
+[node name="Room1" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 1
+background = SubResource("AtlasTexture_hci6w")
+
+[node name="ClickTemplate" parent="Rooms/Room1" instance=ExtResource("2_rpntm")]
+position = Vector2(267, 468)
+rotation = -0.7452556
+scale = Vector2(1.2, 1.2)
+dialogue_event = ""
+scene_mover = true
+scene_location = 2
+click_image = ExtResource("4_yvajj")
 
 [node name="Room2" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 2
+background = SubResource("AtlasTexture_i6kcn")
+
+[node name="ClickTemplate" parent="Rooms/Room2" instance=ExtResource("2_rpntm")]
+position = Vector2(335.00003, 435.00003)
+rotation = 3.499385
+dialogue_event = ""
+scene_mover = true
+scene_location = 21
+click_image = ExtResource("5_i6kcn")
+
+[node name="Room21" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 21
+background = SubResource("AtlasTexture_i6kcn")
+
+[node name="ClickTemplate" parent="Rooms/Room21" instance=ExtResource("2_rpntm")]
+position = Vector2(554.99994, 175)
+rotation = -1.5358897
+scale = Vector2(0.3, 0.3)
+dialogue_event = ""
+scene_mover = true
+scene_location = 22
+click_image = ExtResource("4_yvajj")
+
+[node name="Room22" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 22
+background = SubResource("AtlasTexture_i6kcn")
+
+[node name="ClickTemplate" parent="Rooms/Room22" instance=ExtResource("2_rpntm")]
+position = Vector2(459, 333)
+rotation = -3.1642818
+skew = 0.2443461
+dialogue_event = ""
+scene_mover = true
+scene_location = 3
+click_image = ExtResource("5_i6kcn")
 
 [node name="Room3" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 3
+background = SubResource("AtlasTexture_o640m")
+
+[node name="ClickTemplate" parent="Rooms/Room3" instance=ExtResource("2_rpntm")]
+position = Vector2(197.00006, 393)
+rotation = -3.1415927
+scale = Vector2(2, 2)
+dialogue_event = ""
+scene_mover = true
+scene_location = 31
+click_image = ExtResource("5_i6kcn")
+
+[node name="ClickTemplate2" parent="Rooms/Room3" instance=ExtResource("2_rpntm")]
+position = Vector2(291, 551)
+rotation = 3.1415927
+dialogue_event = ""
+scene_mover = true
+scene_location = 4
+click_image = ExtResource("6_cwd3l")
+
+[node name="Room31" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 31
+background = SubResource("AtlasTexture_0krlp")
+
+[node name="ClickTemplate" parent="Rooms/Room31" instance=ExtResource("2_rpntm")]
+position = Vector2(282.00003, 607.99994)
+scale = Vector2(1.2, 1.2)
+skew = 0.4537856
+dialogue_event = ""
+scene_mover = true
+scene_location = 3
+click_image = ExtResource("7_0krlp")
 
 [node name="Room4" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 4
+background = SubResource("AtlasTexture_fh8pw")
+
+[node name="ClickTemplate" parent="Rooms/Room4" instance=ExtResource("2_rpntm")]
+position = Vector2(1079, 183)
+scale = Vector2(3, 3)
+dialogue_event = ""
+scene_mover = true
+scene_location = 5
+click_image = ExtResource("5_i6kcn")
 
 [node name="Room5" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 5
+background = SubResource("AtlasTexture_adj2x")
+
+[node name="ClickTemplate" parent="Rooms/Room5" instance=ExtResource("2_rpntm")]
+position = Vector2(325, 316)
+rotation = 2.958333
+scale = Vector2(0.4, 0.4)
+dialogue_event = ""
+scene_mover = true
+scene_location = 6
+click_image = ExtResource("6_cwd3l")
 
 [node name="Room6" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 6
+background = SubResource("AtlasTexture_o0wup")
+
+[node name="ClickTemplate" parent="Rooms/Room6" instance=ExtResource("2_rpntm")]
+position = Vector2(563, 476)
+dialogue_event = ""
+scene_mover = true
+scene_location = 7
+click_image = ExtResource("6_cwd3l")
 
 [node name="Room7" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 7
 
 [node name="Room8" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 8
 
 [node name="Room9" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 9
 
 [node name="Room10" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 10
 
 [node name="Room11" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 11
 
 [node name="Room12" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 12
 
 [node name="Room13" parent="Rooms" instance=ExtResource("1_se1is")]
+visible = false
+room_number = 13
 
-[node name="Room14" parent="Rooms" instance=ExtResource("1_se1is")]
-
-[node name="Room15" parent="Rooms" instance=ExtResource("1_se1is")]
+[node name="ClickTemplate" parent="." instance=ExtResource("2_rpntm")]
+z_index = 1
+position = Vector2(55, 581)
+scene_mover = true
+scene_location = -1
+click_image = ExtResource("5_i6kcn")
