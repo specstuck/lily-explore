@@ -1,7 +1,8 @@
+//https://godotshaders.com/shader/various-canvas-outlines/ CC0
 shader_type canvas_item;
-
 // Outline color.
 uniform vec4 color: source_color = vec4(1.0);
+uniform vec4 color2: source_color = vec4(1.0);
 // Outline thickness.
 uniform float thickness: hint_range(0.0, 100.0) = 1.0;
 // Used to compensate for alpha values.
@@ -10,10 +11,12 @@ uniform float tolerance: hint_range(0.0, 0.999) = 0.0;
 uniform bool diagonals = true;
 // If diagonals are checked will check for half pixels so it rounds the outline a bit more.
 uniform bool rounded = true;
+uniform float speed = 3;
 
 // Compensate UV for outline.
 void vertex() {
-	VERTEX = vec2(VERTEX.x * (1.0 + TEXTURE_PIXEL_SIZE.x * thickness * 2.0), VERTEX.y * (1.0 + TEXTURE_PIXEL_SIZE.y * thickness * 2.0));
+	float max_len = min((1.0 + TEXTURE_PIXEL_SIZE.x * thickness * 2.0), (1.0 + TEXTURE_PIXEL_SIZE.y * thickness * 2.0));
+	VERTEX = vec2(VERTEX.x * max_len, VERTEX.y * max_len);
 }
 
 // Checks a fragment for the edge of an uv.
@@ -57,13 +60,16 @@ void fragment() {
 		float edge = TEXTURE_PIXEL_SIZE.x * thickness * 2.0;
 		uv = uv + uv * edge;
 		uv += vec2(0.5);
+
 		
 		// Apply outline.
 		vec4 newColor = texture(TEXTURE, uv);
 		if (newColor.a == 0.0 || border(uv)) {
 			float outline = in_range(TEXTURE_PIXEL_SIZE * thickness, TEXTURE, uv);
 			vec4 finalColor = step(1.0 - tolerance, outline) * color;
-			newColor = finalColor;
+			newColor.a = finalColor.a;
+			newColor.rgb = mix(color2.rgb, finalColor.rgb, sin(TIME * speed));
+			//newColor.rgb = vec3(smoothstep(end_time, start_time, TIME));
 		}
 		COLOR = newColor;
 	}

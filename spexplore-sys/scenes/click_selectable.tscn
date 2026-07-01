@@ -6,11 +6,13 @@
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_0bnst"]
 shader = ExtResource("2_yvewy")
-shader_parameter/color = Color(1, 0, 0, 1)
-shader_parameter/thickness = 1.0
+shader_parameter/color = Color(0, 1, 1, 1)
+shader_parameter/color2 = Color(0.36862746, 1, 1, 1)
+shader_parameter/thickness = 2.154000102315
 shader_parameter/tolerance = 0.0
 shader_parameter/diagonals = true
 shader_parameter/rounded = true
+shader_parameter/speed = 2.0
 
 [node name="ClickSelectable" instance=ExtResource("1_5b7tc")]
 
