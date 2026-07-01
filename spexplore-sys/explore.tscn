@@ -1,7 +1,7 @@
 [gd_scene load_steps=23 format=3 uid="uid://d0hd1helv4apf"]
 
 [ext_resource type="PackedScene" uid="uid://253lcb2k7lgm" path="res://scenes/room.tscn" id="1_se1is"]
-[ext_resource type="Texture2D" uid="uid://1fim5i22i48h" path="res://assets/backgrounds/image.png" id="2_dsqco"]
+[ext_resource type="Texture2D" uid="uid://1fim5i22i48h" path="res://assets/texture/explore/image.png" id="2_dsqco"]
 [ext_resource type="PackedScene" uid="uid://dymhlq7profyv" path="res://scenes/click_template.tscn" id="2_rpntm"]
 [ext_resource type="Texture2D" uid="uid://flbrgtckkkel" path="res://assets/texture/front.png" id="4_yvajj"]
 [ext_resource type="Texture2D" uid="uid://cax4xnfcnylv3" path="res://assets/texture/side.png" id="5_i6kcn"]
@@ -66,7 +66,6 @@ region = Rect2(422.70227, 607.9945, 381.01996, 269.8186)
 [node name="Rooms" type="Node" parent="." groups=["rooms_parent"]]
 
 [node name="Room0" parent="Rooms" instance=ExtResource("1_se1is")]
-visible = false
 background = SubResource("AtlasTexture_dsqco")
 
 [node name="ClickTemplate" parent="Rooms/Room0" instance=ExtResource("2_rpntm")]

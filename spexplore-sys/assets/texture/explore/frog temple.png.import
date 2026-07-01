@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1fim5i22i48h"
-path="res://.godot/imported/image.png-a6f79312ffb0b17b58975fabffa969b7.ctex"
+uid="uid://bc3hy7nqkcl0"
+path="res://.godot/imported/frog temple.png-cbbeab7a184a47951049357edc29f50c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/image.png"
-dest_files=["res://.godot/imported/image.png-a6f79312ffb0b17b58975fabffa969b7.ctex"]
+source_file="res://assets/texture/explore/frog temple.png"
+dest_files=["res://.godot/imported/frog temple.png-cbbeab7a184a47951049357edc29f50c.ctex"]
 
 [params]
 

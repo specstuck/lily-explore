@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://dahgkdvaf200f"]
+
+[ext_resource type="PackedScene" uid="uid://dymhlq7profyv" path="res://scenes/click_template.tscn" id="1_5b7tc"]
+[ext_resource type="Shader" uid="uid://hqtgm3cpwd01" path="res://assets/shader/lily_selectable.gdshader" id="2_yvewy"]
+[ext_resource type="Texture2D" uid="uid://gisph3qtdlcm" path="res://assets/texture/angle.png" id="3_0bnst"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0bnst"]
+shader = ExtResource("2_yvewy")
+
+[node name="ClickSelectable" instance=ExtResource("1_5b7tc")]
+
+[node name="Sprite2D" parent="." index="2"]
+material = SubResource("ShaderMaterial_0bnst")
+texture = ExtResource("3_0bnst")
+
+[node name="ColorRect" type="ColorRect" parent="." index="3"]
+offset_left = -35.0
+offset_top = -20.0
+offset_right = 5.0
+offset_bottom = 20.0
+color = Color(0, 1, 1, 1)

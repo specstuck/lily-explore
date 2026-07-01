@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Spexplore Sys"
+config/name="Lily-Explore"
 run/main_scene="uid://kxr5n2kv6l0x"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
