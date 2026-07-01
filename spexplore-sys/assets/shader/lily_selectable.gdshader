@@ -1,33 +1,70 @@
 shader_type canvas_item;
-uniform sampler2D screen_texture : hint_screen_texture, filter_linear_mipmap;
 
-const mat3 sobelx = mat3(vec3(-1,-2,-1), vec3(0), vec3(1,2,1));
-const mat3 sobely = mat3(vec3(-1,0,1), vec3(-2,0,2), vec3(-1,0,1));
+// Outline color.
+uniform vec4 color: source_color = vec4(1.0);
+// Outline thickness.
+uniform float thickness: hint_range(0.0, 100.0) = 1.0;
+// Used to compensate for alpha values.
+uniform float tolerance: hint_range(0.0, 0.999) = 0.0;
+// If on will draw at diagonals. Off is mainly for pixel art but you do you.
+uniform bool diagonals = true;
+// If diagonals are checked will check for half pixels so it rounds the outline a bit more.
+uniform bool rounded = true;
 
-void fragment() {
-	//COLOR = texture(screen_texture, UV);
-    //float avg = (COLOR.r + COLOR.g + COLOR.b) / 3.0;
-    //COLOR.rgb = vec3(avg);
-	vec2 size = vec2(textureSize(screen_texture, 0));
+// Compensate UV for outline.
+void vertex() {
+	VERTEX = vec2(VERTEX.x * (1.0 + TEXTURE_PIXEL_SIZE.x * thickness * 2.0), VERTEX.y * (1.0 + TEXTURE_PIXEL_SIZE.y * thickness * 2.0));
+}
 
-	float sobelsumx = 0.0;
-	float sobelsumy = 0.0;
-	for(int x = -1; x < 1; x++){
-		for(int y = -1; y < 1; y++){
-			vec3 colorPix = texelFetch(screen_texture, ivec2(FRAGCOORD.xy) + ivec2(x-1,y-1), 0).rgb;
-			float grayPix = colorPix.r / 3.0 + colorPix.g / 3.0 + colorPix.b / 3.0;
-			sobelsumx += grayPix * sobelx[x + 1][y + 1];
-			sobelsumy += grayPix * sobely[x + 1][y + 1];
+// Checks a fragment for the edge of an uv.
+bool border(vec2 uv) {
+	vec2 uvBorder = abs(uv - vec2(0.5));
+	return max(step(0.5, uvBorder.x), step(0.5, uvBorder.y)) > 0.0;
+}
+
+// Gets alpha of given fragment if not near the edge.
+float get_alpha(sampler2D tex, vec2 uv){
+	float res = 0.0;
+	if (!border(uv)) {
+		res = texture(tex, uv).a;
+	}
+	return res;
+}
+
+// Checks for neighboring pixels.
+float in_range(vec2 size, sampler2D tex, vec2 uv) {
+	float res = 0.0;
+	for (float i = -1.0; i < 2.0; i += 2.0) {
+		res += get_alpha(tex, uv + vec2(i * size.x, 0.0));
+		res += get_alpha(tex, uv + vec2(0.0, i * size.y));
+		if (diagonals) {
+			for (float j = -1.0; j < 2.0; j += 2.0) {
+				res += get_alpha(tex, uv + vec2(i * size.x, j * size.y));
+				if (rounded) {
+					res += get_alpha(tex, uv + vec2(i * size.x, j * size.y * 0.5));
+				}
+			}
 		}
 	}
-	//vec4 n[9];
-	//make_kernel( n, texture, gl_TexCoord[0].st);
+	return res;
+}
 
-	//vec4 sobel_edge_h = n[2] + (2.0*n[5]) + n[8] - (n[0] + (2.0*n[3]) + n[6]);
-  	//vec4 sobel_edge_v = n[0] + (2.0*n[1]) + n[2] - (n[6] + (2.0*n[7]) + n[8]);
-	//vec4 sobelsum = sqrt((sobel_edge_h * sobel_edge_h) + (sobel_edge_v * sobel_edge_v));
-	
-	//COLOR.rgb = sobelsumy
-	//vec3 sobelsum = vec3(sqrt(pow(sobelsumx, 2.0) + pow(sobelsumy, 2)));
-	COLOR = vec4(vec3(sobelsumx), 1);
+void fragment() {
+	if (thickness > 0.0) {
+		// Correct image size to for outline in frame.
+		vec2 uv = UV;
+		uv -= vec2(0.5);
+		float edge = TEXTURE_PIXEL_SIZE.x * thickness * 2.0;
+		uv = uv + uv * edge;
+		uv += vec2(0.5);
+		
+		// Apply outline.
+		vec4 newColor = texture(TEXTURE, uv);
+		if (newColor.a == 0.0 || border(uv)) {
+			float outline = in_range(TEXTURE_PIXEL_SIZE * thickness, TEXTURE, uv);
+			vec4 finalColor = step(1.0 - tolerance, outline) * color;
+			newColor = finalColor;
+		}
+		COLOR = newColor;
+	}
 }

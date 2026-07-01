@@ -6,16 +6,14 @@
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_0bnst"]
 shader = ExtResource("2_yvewy")
+shader_parameter/color = Color(1, 0, 0, 1)
+shader_parameter/thickness = 1.0
+shader_parameter/tolerance = 0.0
+shader_parameter/diagonals = true
+shader_parameter/rounded = true
 
 [node name="ClickSelectable" instance=ExtResource("1_5b7tc")]
 
 [node name="Sprite2D" parent="." index="2"]
 material = SubResource("ShaderMaterial_0bnst")
 texture = ExtResource("3_0bnst")
-
-[node name="ColorRect" type="ColorRect" parent="." index="3"]
-offset_left = -35.0
-offset_top = -20.0
-offset_right = 5.0
-offset_bottom = 20.0
-color = Color(0, 1, 1, 1)
